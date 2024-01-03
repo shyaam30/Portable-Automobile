@@ -1,0 +1,42 @@
+<body>
+
+	<img class="wave" src="">
+	<div class="container">
+		<div class="img">
+			<img src="https://wallpapercave.com/wp/wp9164910.jpg">
+		</div>
+		<div class="login-content">
+			<form  [formGroup]="loginForm1" >
+				<img class="avatar" src="https://designmodo.com/wp-content/uploads/2015/09/contacts.gif">
+				<h2 class="title">Welcome</h2>
+           		<div class="input-div one">
+           		   <div class="i">
+           		   		<i class="fas fa-user"></i>
+           		   </div>
+           		   <div class="div">
+                  <input type="email" name="email" placeholder="Email" formControlName="email">
+                  <small *ngIf="loginForm1.controls['email'].errors?.['required'] && loginForm1.controls['email'].touched">Please enter Email</small>
+                  <small *ngIf="loginForm1.controls['email'].errors?.['pattern']">Please enter the valid Email ID</small>
+           		   </div>
+           		</div>
+           		<div class="input-div one">
+           		   <div class="i">
+           		    	<i class="fas fa-lock"></i>
+           		   </div>
+           		   <div class="div">
+                  <input type="password" name="password" placeholder="Password" formControlName="password">
+                  <small *ngIf="loginForm1.controls['password'].errors?.['required'] && loginForm1.controls['password'].touched">Please enter Password</small>
+                  <small *ngIf="loginForm1.controls['password'].errors?.['pattern']">Please enter the strong password</small>
+            	   </div>
+
+            	</div>
+              Forgot Password?
+
+            	<button [disabled]="loginForm1.invalid" type="submit" class="btn" value="Login" (click)="login()">Login</button>
+              <p>Don't have an account?<a routerLink="/roll">Register</a></p>
+            </form>
+
+        </div>
+    </div>
+
+</body>

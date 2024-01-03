@@ -1,0 +1,65 @@
+<body>
+  <img class="wave" src="">
+	<div class="container">
+		<div class="img">
+			<img src="https://wallpapercave.com/wp/wp9164910.jpg">
+		</div>
+		<div class="login-content">
+			<form [formGroup]="regForm1" (ngSubmit)="submitForm()">
+				<img class="avatar" src="https://designmodo.com/wp-content/uploads/2015/09/contacts.gif">
+				<h2 class="title">Welcome</h2>
+  <div class="input-div one">
+    <div class="i">
+      <i class="fas fa-user"></i>
+  </div>
+  <div class="div">
+    <input type="text" name="username" placeholder="Name" formControlName="username">
+
+  <div *ngIf="regForm1.controls['username'].invalid && regForm1.controls['username'].touched"></div>
+ <small *ngIf="regForm1.controls['username'].errors?.['required'] && regForm1.controls['username'].dirty">Please enter the username</small>
+ <small *ngIf="regForm1.controls['username'].errors?.['pattern']">Atleast 3 characters and Number not allowed</small>
+</div>
+</div>
+ <div class="input-div one">
+  <div class="i">
+    <i class="fas fa-envelope"></i>
+ </div>
+ <div class="div">
+  <input type="email" name="email" placeholder="Email" formControlName="email">
+  <small *ngIf="regForm1.controls['email'].errors?.['required'] && regForm1.controls['email'].touched">Please enter Email</small>
+  <small *ngIf="regForm1.controls['email'].errors?.['pattern']">Please enter the valid Email ID</small>
+</div>
+ </div>
+
+  <div class="input-div one">
+    <div class="i">
+      <i class="fas fa-lock"></i>
+   </div>
+   <div class="div">
+    <input type="password" name="password" placeholder="Password" formControlName="password">
+    <small *ngIf="regForm1.controls['password'].errors?.['required'] && regForm1.controls['password'].touched">Please enter Email</small>
+    <small *ngIf="regForm1.controls['password'].errors?.['pattern']">Please enter the strong password</small>
+   </div>
+  </div>
+
+  <div class="input-div one">
+    <div class="i">
+      <i class="fas fa-lock"></i>
+   </div>
+   <div class="div">
+    <input type="password" name="cpassword" placeholder="Confrim password"  formControlName="cpassword">
+
+  <small *ngIf="regForm1.controls['cpassword'].invalid && regForm1.controls['cpassword'].touched">Please enter pasword</small>
+  <small *ngIf="regForm1.controls['cpassword'].errors?.['required']">Please enter pasword</small>
+  <small *ngIf="regForm1.controls['cpassword'].errors?.['confirmedValidator']">Please enter the matching pasword</small>
+</div>
+</div>
+<div class="button">
+  <button [disabled]="regForm1.invalid" class="btn">Register</button>
+</div>
+</form>
+</div>
+</div>
+</body>
+
+

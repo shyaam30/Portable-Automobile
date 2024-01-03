@@ -1,0 +1,92 @@
+.box{
+  padding: 50px ;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding : 30px ;
+  background-color: rgb(196, 210, 223);
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+
+}
+
+input[type="text"], textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1.2px solid #a5b5ef;
+  outline: none;
+  transition: border-color 0.3s ease;
+  text-decoration: none;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.information{
+  padding: 10px 0px;
+}
+.information p{
+  cursor: pointer;
+  text-align:left;
+
+}
+.information> .question{
+  font-size:30px;
+}
+.toggle{
+  padding: 10px 0px;
+}
+.headings{
+  text-align: center;
+  padding-top: 40px;
+  text-transform: capitalize;
+  font-size: 3rem;
+  color: black;
+}
+.reviews-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+  gap: 20px;
+  margin: 30px;
+}
+.rev-img{
+  width: 100%;
+  height: 100%;
+}
+.rev-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border: 2px solid rgb(196, 210, 223) ;
+}
+.reviews-container .box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 1px 4px 41px rgba(0,0,0,0.1);
+  border-radius: 5px;
+}
+.reviews-container .box h2{
+  font-size: 30px;
+  font-weight: 600;
+  margin: 25px 50px;
+}

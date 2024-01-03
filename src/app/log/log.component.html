@@ -1,0 +1,109 @@
+<div class="box">
+  <div class="container">
+    <form [formGroup]="logForm">
+    <h1>Complaint Log</h1>
+
+    <label for="complaint-name">Name:</label>
+    <input type="text"  formControlName="name" id="complaint-name">
+
+    <label for="complaint-description">Description:</label>
+    <textarea id="complaint-description"  formControlName="complain"></textarea>
+
+    <button [disabled]="logForm.invalid" (click)="addComplaint()">Submit</button>
+
+    <div id="complaint-list"></div>
+  </form>
+  </div>
+
+<h1 class="headings" id="headings">Some Clarifications</h1>
+<div class="information">
+
+  <p (click)="toogle()" class="question">What is the purpose of this application?</p>
+   <p  class="toggle"  *ngIf="hideSentence">This Web Application is for the clients whose vehicle is gets stucks/break-down in mid of their journey</p>
+   <hr>
+
+</div>
+<div class="information">
+  <p (click)="toogles()" class="question">How should operate the web application?</p>
+   <p class="toggle" *ngIf="hideSentence1">Before login the user can view the web application, examine the features and service avaliable in the web application.</p>
+   <hr>
+
+</div>
+<div class="information">
+  <p (click)="toogle1()" class="question">How should user can register their compliant?</p>
+   <p class="toggle" *ngIf="hideSentence2">After login the user have full access to operate the web application,In which user able to select their vehicle type and book their compliant </p>
+   <hr>
+
+</div>
+<div class="information">
+  <p (click)="toogle3()" class="question">How the payment process will be done?</p>
+   <p class="toggle" *ngIf="hideSentence3">According to the range of break-down,spares that required and the service charge is calculated after the service done the cost will be estimated by the worker team and client should done the proper payment </p>
+   <hr>
+
+</div>
+<div class="information">
+  <p (click)="toogle4()" class="question">How to contact customer care?</p>
+   <p class="toggle" *ngIf="hideSentence4">After the complaint is register by the user the verification call will be done Or else you call our customer care number : <a href="">+91 9360997211</a></p>
+   <hr>
+
+</div>
+<section class="review" id="review">
+  <div class="heading">
+    <h1 class="headings">
+     Gallery
+   </h1>
+
+  </div>
+  <div class="reviews-container">
+    <div class="box">
+      <div class="rev-img">
+    <img src="https://roadloans.com/wp-content/uploads/2013/08/121417-rl-is-it-better-to-lease-or-buy-a-car_.jpg" alt="">
+  </div>
+  </div>
+    <div class="box">
+      <div class="rev-img">
+        <img src="https://5.imimg.com/data5/DA/OK/WN/SELLER-21013186/vehicle-insurance-500x500.jpg" alt="">
+      </div>
+
+
+    </div>
+    <div class="box">
+      <div class="rev-img">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.1eJbTQJjGHblhmMG6Rt6SAHaE8&pid=Api&P=0&h=220" alt="">
+      </div>
+
+    </div>
+    <div class="box">
+      <div class="rev-img">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.F8ghIBV_Y4a55lK5a8lRxQHaE8&pid=Api&P=0&h=180" alt="">
+      </div>
+
+    </div>
+    <div class="box">
+      <div class="rev-img">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.zSZRUmt5XMXI--XVsrCMxwHaGW&pid=Api&P=0&h=220" alt="">
+      </div>
+
+    </div>
+    <div class="box">
+      <div class="rev-img">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.AmpPeYoX0fM7Lm_FYZeWLwHaEK&pid=Api&P=0&h=220" alt="">
+      </div>
+
+    </div>
+    <div class="box">
+      <div class="rev-img">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.1M4gpBG__HTD3zN_exsFLQHaEB&pid=Api&P=0&h=220" alt="">
+      </div>
+
+    </div>
+    <div class="box">
+      <div class="rev-img">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.AsA1gzEV2g1H7KtjWaA3-AHaD3&pid=Api&P=0&h=180" alt="">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</div>

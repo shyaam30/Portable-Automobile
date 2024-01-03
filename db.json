@@ -1,0 +1,342 @@
+{
+  "users": [
+    {
+      "username": "Shyaam",
+      "email": "2k19me050@kiot.ac.in",
+      "password": "shyaam@1",
+      "cpassword": "shyaam@1",
+      "id": 1
+    },
+    {
+      "username": "balaji",
+      "email": "2k19eee045@kiot.ac.in",
+      "password": "#Sathish007",
+      "cpassword": "#Sathish007",
+      "id": 2
+    },
+    {
+      "username": "Admin",
+      "email": "admin1@gmail.com",
+      "password": "admin@1",
+      "cpassword": "admin@1",
+      "id": 3
+    },
+    {
+      "username": "dhaya",
+      "email": "dhaya@gmail.com",
+      "password": "dhaya@1",
+      "cpassword": "dhaya@1",
+      "id": 4
+    },
+    {
+      "username": "kumar",
+      "email": "kumar@gamil.com",
+      "password": "Kumar@1",
+      "cpassword": "Kumar@1",
+      "id": 5
+    },
+    {
+      "username": "sam",
+      "email": "sam@gmail.com",
+      "password": "sam@123",
+      "cpassword": "sam@123",
+      "id": 6
+    },
+    {
+      "username": "Udhaya",
+      "email": "udhaya@gmail.com",
+      "password": "udhaya@1",
+      "cpassword": "udhaya@1",
+      "id": 7
+    },
+    {
+      "username": "Raghul",
+      "email": "raghul@gmail.com",
+      "password": "raghul@1",
+      "cpassword": "raghul@1",
+      "id": 8
+    },
+    {
+      "username": "Mahendran",
+      "email": "mahendran@gmail.com",
+      "password": "mahendran@1",
+      "cpassword": "mahendran@1",
+      "id": 9
+    }
+  ],
+  "checkout": [
+    {
+      "name": "Yomika",
+      "email": "yomika@gmail.com",
+      "location": "salem",
+      "contact": "8220129675",
+      "bike": "",
+      "scooter": "scooter",
+      "car": "",
+      "jeep": "",
+      "truck": "",
+      "issue": "chain scrach",
+      "id": 2
+    },
+    {
+      "name": "SHYAAM",
+      "email": "2k19me050@kiot.ac.in",
+      "location": "Bhavani",
+      "contact": "8220129675",
+      "bike": "",
+      "scooter": "scooter",
+      "car": "",
+      "jeep": "",
+      "truck": "",
+      "issue": "Puncture",
+      "id": 3
+    },
+    {
+      "name": "udhaya",
+      "email": "udhaya@gmail.com",
+      "location": "salem near 5roads ",
+      "contact": "8220129675",
+      "bike": "",
+      "scooter": "",
+      "car": "car",
+      "jeep": "",
+      "truck": "",
+      "issue": "Car - Battery down can",
+      "id": 4
+    },
+    {
+      "name": "shyaam",
+      "email": "2k19me050@kiot.ac.in",
+      "location": "Bhavani",
+      "contact": "8220129675",
+      "option": "bike",
+      "issue": "rahafbcb",
+      "id": 5
+    },
+    {
+      "name": "Tharagai",
+      "email": "2k19me050@kiot.ac.in",
+      "location": "Bhavani",
+      "contact": "8220129675",
+      "option": "car",
+      "issue": "Starting Troubble",
+      "id": 6
+    },
+    {
+      "name": "shyaam",
+      "email": "2k19me050@kiot.ac.in",
+      "location": "Bhavani",
+      "contact": "8220129675",
+      "option": "car",
+      "issue": "Shyaam Need a Happy Life",
+      "date": "2023-07-15T06:05:54.021Z",
+      "id": 8
+    },
+    {
+      "name": "Shyaam",
+      "email": "2k19me050@kiot.ac.in",
+      "location": "Bhavani",
+      "contact": "8220129675",
+      "option": "bike",
+      "issue": "No idea about breakdown",
+      "date": "2023-07-15T11:53:46.967Z",
+      "id": 9
+    },
+    {
+      "name": "Sankar",
+      "email": "sankar@gmail.com",
+      "location": "salem near 5roads ",
+      "contact": "6383824455",
+      "option": "jeep",
+      "issue": "Breakdown no idea",
+      "id": 10
+    }
+  ],
+  "complain": [
+    {
+      "name": "Shyaam",
+      "complain": "Work should be done fast",
+      "date": "2023-08-02T06:05:18.910Z",
+      "id": 3
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "Features": [
+    {
+      "image": "assets/img/towing.jpeg",
+      "name": "typicode",
+      "id": 1
+    },
+    {
+      "image": "https://my.consumeraffairs.com/media/mt_dp_didyouknow_desktop-min.e66892c83135.png "
+    }
+  ],
+  "Products": [
+    {
+      "id": 1,
+      "title": "iPhone 9",
+      "description": "An apple mobile which is nothing like apple",
+      "price": 549,
+      "discountPercentage": 12.96,
+      "rating": 4.69,
+      "stock": 94,
+      "brand": "Apple",
+      "category": "smartphones",
+      "images": "https://tse3.mm.bing.net/th?id=OIP.n8D9v0j1wxRAOjKI1OGrzQHaEK&pid=Api&P=0"
+    },
+    {
+      "id": 2,
+      "title": "iPhone 9",
+      "description": "An apple mobile which is nothing like apple",
+      "price": 549,
+      "discountPercentage": 12.96,
+      "rating": 4.69,
+      "stock": 94,
+      "brand": "Apple",
+      "category": "smartphones",
+      "images": "https://clipartcraft.com/images/car-clipart-fxx-k-2.png"
+    },
+    {
+      "id": 3,
+      "title": "iPhone X",
+      "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+      "price": 899,
+      "discountPercentage": 17.94,
+      "rating": 4.44,
+      "stock": 34,
+      "brand": "Apple",
+      "category": "smartphones",
+      "images": "https://shikshanews.com/wp-content/uploads/Ola-Electric-Scooter-Front-Left-1024x745.jpg  "
+    },
+    {
+      "id": 4,
+      "title": "Samsung Universe 9",
+      "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
+      "price": 1249,
+      "discountPercentage": 15.46,
+      "rating": 4.09,
+      "stock": 36,
+      "brand": "Samsung",
+      "category": "smartphones",
+      "images": "https://di-uploads-pod10.dealerinspire.com/daytonadodgechryslerjeepramfiat/uploads/2017/07/2017-Jeep-Wrangler-Unlimited.png "
+    },
+    {
+      "id": 5,
+      "title": "OPPOF19",
+      "description": "OPPO F19 is officially announced on April 2021.",
+      "price": 280,
+      "rating": 4.3,
+      "stock": 123,
+      "brand": "OPPO",
+      "category": "smartphones",
+      "images": "https://pluspng.com/img-png/ford-pickup-truck-png-black-and-white-2017-ford-f-150-1000.png "
+    }
+  ],
+  "log": [
+    {
+      "level": 2,
+      "additional": [],
+      "message": "user accessed the home page",
+      "timestamp": "2023-08-09T13:49:57.490Z",
+      "fileName": "main.js",
+      "lineNumber": 521,
+      "columnNumber": 17,
+      "id": 1
+    },
+    {
+      "level": 2,
+      "additional": [],
+      "message": "user accessed the home page",
+      "timestamp": "2023-12-18T05:43:03.000Z",
+      "fileName": "main.js",
+      "lineNumber": 521,
+      "columnNumber": 17,
+      "id": 2
+    },
+    {
+      "level": 2,
+      "additional": [],
+      "message": "user accessed the home page",
+      "timestamp": "2023-12-18T05:43:32.570Z",
+      "fileName": "main.js",
+      "lineNumber": 521,
+      "columnNumber": 17,
+      "id": 3
+    },
+    {
+      "level": 2,
+      "additional": [],
+      "message": "user accessed the home page",
+      "timestamp": "2023-12-18T05:43:37.725Z",
+      "fileName": "main.js",
+      "lineNumber": 521,
+      "columnNumber": 17,
+      "id": 4
+    },
+    {
+      "level": 2,
+      "additional": [],
+      "message": "user accessed the home page",
+      "timestamp": "2023-12-18T05:43:38.438Z",
+      "fileName": "main.js",
+      "lineNumber": 521,
+      "columnNumber": 17,
+      "id": 5
+    },
+    {
+      "level": 2,
+      "additional": [],
+      "message": "user accessed the home page",
+      "timestamp": "2023-12-18T05:44:28.669Z",
+      "fileName": "main.js",
+      "lineNumber": 521,
+      "columnNumber": 17,
+      "id": 6
+    },
+    {
+      "level": 2,
+      "additional": [],
+      "message": "user accessed the home page",
+      "timestamp": "2023-12-18T12:39:37.408Z",
+      "fileName": "main.js",
+      "lineNumber": 521,
+      "columnNumber": 17,
+      "id": 7
+    },
+    {
+      "level": 2,
+      "additional": [],
+      "message": "user accessed the home page",
+      "timestamp": "2023-12-18T12:40:49.791Z",
+      "fileName": "main.js",
+      "lineNumber": 521,
+      "columnNumber": 17,
+      "id": 8
+    },
+    {
+      "level": 2,
+      "additional": [],
+      "message": "user accessed the home page",
+      "timestamp": "2023-12-26T09:13:48.849Z",
+      "fileName": "main.js",
+      "lineNumber": 521,
+      "columnNumber": 17,
+      "id": 9
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+
+<!--<div class="box" *ngFor="let item of Features">
+  <img class="book"  [src]="item.image">
+</div>-->
+
+<!--<section class="vehicles" id="vehicles">
+
+  <h1 class="heading">Type of <span>Vehicles</span></h1>
+
+  <div class="vehicles-slider">
+
+    <div class="wrapper">
+
+      <div class="slider-main">
+        <div class="boxs" *ngFor="let item of products">
+
+          <img class="" src="{{item.images}}">
+          <div class="content">
+          <h3>New Model</h3>
+          <div class="price"><span>Price:</span>₹50000/-</div>
+          <p>
+            New
+            <span class="fas fa-circle"></span>2023
+            <span class="fas fa-circle"></span>2023
+            <span class="fas fa-circle"></span>2023
+            <span class="fas fa-circle"></span>2023
+          </p>
+          <a routerLink="#" class="btn">Check Out</a>
+        </div>
+        </div>
+        <div class="button-area">
+        <button type="button" class="prev">Prev</button>
+        <button type="button" class="next">Next</button>
+      </div>
+      </div>
+    </div>
+
+  </div>
+
+
+</section>-->
+<!-------------------------------------------Hero------------------------------------------------->
+<div class="Hero">
+  <video src="assets/img/slide.mp4" type="video/mp4"  autoplay loop></video>
+</div>
+<!------------------------------Type of vehicle----------------------------------------------------->
+<section class="product">
+  <h1 class="heading">
+    Select Your Type of <span class="span">Vehicle</span>
+ </h1>
+  <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
+<div ngxSlickItem *ngFor="let slide of slides" class="slide">
+<img src="{{ slide.img }}" alt="" width="100%">
+<div class="content">
+
+  <a routerLink="/checkout" class="btn" ><p>Check Out</p></a>
+</div>
+
+
+
+</div>
+</ngx-slick-carousel>
+</section>
+
+<!-----------------!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-------------->
+<section class="services" id="services">
+  <h1 class="heading">
+     our <span class="span">service</span>
+  </h1>
+  <div class="box-container">
+  <div class="box">
+    <i class="fas fa-car"></i>
+    <h3>car selling</h3>
+    <p>Find the best savings easily and fast Compare car insurance rates side by side with our competitors so it's easy to find the lowest option </p>
+
+  </div>
+
+  <div class="box">
+    <i class="fas fa-tools"></i>
+    <h3>parts repair</h3>
+    <p>Access parts & labor guides within any estimate.
+      Lookup vehicle data by license plate or VIN scan.
+      Use pre-built canned services for quick estimates</p>
+
+  </div>
+
+  <div class="box">
+    <i class="fas fa-car-crash"></i>
+    <h3>insurance</h3>
+    <p>Getting an auto insurance quote is the best way to see personalized rates and coverage options from insurance companies. While traditional car insurance companies do offer free quote</p>
+
+  </div>
+
+  <div class="box">
+    <i class="fas fa-car-battery"></i>
+    <h3>battery replacement</h3>
+    <p>Find the highest rated Car Batteries available right now. weather battery, which is rated at a higher cold cranking amperage output!</p>
+
+  </div>
+
+  <div class="box">
+    <i class="fas fa-gas-pump"></i>
+    <h3>oil change</h3>
+    <p>Curious how much you should pay for a local oil change?  oil change will depend on the oil service package you choose and the type of oil that's used.</p>
+
+  </div>
+
+  <div class="box">
+    <i class="fas fa-headset"></i>
+    <h3>24/7 support</h3>
+    <p>Good service is good business.Customer service is the new marketing.Good customer service costs less than bad customer service</p>
+
+  </div>
+  </div>
+</section>
+
+<!---------------------------------------Review------------------------------------>
+<section class="review" id="review">
+  <div class="heading">
+    <h1 class="heading">
+     Review
+   </h1>
+   <span>Whats Our Customer Say</span>
+  </div>
+  <div class="reviews-container">
+    <div class="box">
+      <div class="rev-img">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.j7mOkCvMcUIrg2bFrXEApwHaEN&pid=Api&P=0" alt="">
+      </div>
+      <h2>Thomas</h2>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half"></i>
+      </div>
+      <p>This web application is very useful, I am got stuck in mid of my travel and register a compliant about break-down whithin few minutes the team fetch the spot and rectify the problem</p>
+    </div>
+    <div class="box">
+      <div class="rev-img">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.moO0QfoVsrTQODzcf3OC6AHaEK&pid=Api&P=0" alt="">
+      </div>
+      <h2>Royals</h2>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+
+      </div>
+      <p>The service is too good. The cost is more reliable , the service done neat and clean</p>
+    </div>
+    <div class="box">
+      <div class="rev-img">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.crw5rSy5J8zkd-yyAx00tgHaEK&pid=Api&P=0&h=180" alt="">
+      </div>
+      <h2>Samson</h2>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star-half"></i>
+      </div>
+      <p>The worker team arrived the spot quickly and rectify the compliant quickly</p>
+    </div>
+    <div class="box">
+      <div class="rev-img">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.S6-Q8RNm_gSSNukexhIFDgHaLG&pid=Api&P=0&h=220" alt="">
+      </div>
+      <h2>Sanju</h2>
+      <div class="stars">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+
+      </div>
+      <p>I am got stuck in mid of my travel and register a compliant about break-down whithin few minutes the team fetch the spot and rectify the problem.</p>
+    </div>
+  </div>
+</section>

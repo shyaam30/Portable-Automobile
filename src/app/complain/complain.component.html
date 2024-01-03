@@ -1,0 +1,22 @@
+<div class="container">
+  <a class="button" routerLink="/admin"> Booking</a>
+<div class="box">
+
+  <table id="com">
+    <thead>
+      <td>Roll no</td>
+      <td>Name</td>
+      <td>Issue</td>
+      <td>Date</td>
+      <td>Process</td>
+    </thead>
+<tr class="don" *ngFor="let data of checkout">
+           <td>{{data.id}} </td>
+           <td>{{data.name}} </td>
+           <td>{{data.complain}}</td>
+           <td>{{data.date}}</td>
+           <td><button class="btn" (click)="delete(data.id)">Done <i class="fa fa-check"></i></button></td>
+    </tr>
+  </table>
+  </div>
+</div>
